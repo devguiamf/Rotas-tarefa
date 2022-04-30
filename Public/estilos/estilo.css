@@ -1,0 +1,236 @@
+/* Header */
+
+header{
+    display: flex;
+    align-items: center; /*Centralização vertical*/ 
+    justify-content: space-around; 
+    height: 15vh;
+    background-color: dodgerblue;
+    flex-direction: baseline;
+    transition:500ms;   }    
+
+
+.logo{
+    display: flex;
+    justify-content: center;   
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 300px; }
+    
+
+
+
+#menu-principal{
+    display:flex;     
+    justify-content: center; /*Centralização horizontal*/  
+    align-items: center; /*Centralização vertical*/    
+    color: black;
+    min-height: 25%;
+    height: 36px;
+    width: 100%;
+    margin-top: 10px; }
+
+
+#menu-principal ul {   
+    display: flex;   
+    list-style: none;  } /* Tira a decoração da lista */    
+
+
+
+#menu-principal ul li {
+    display: flex;
+    height: 36px;
+    margin: 0 10px;    
+    font-weight: bold;
+    font-family: var(--fonte-texto2);  } 
+
+
+
+#menu-principal ul li a{   
+    text-decoration: none;
+    display: flex ; 
+    background-color: var(--cor-fundo-clara);   
+    font-size: 20px;
+    align-items: center; 
+    padding: 0 10px;     
+    transition: 300ms;
+    color: var(--cor-texto); }
+
+
+
+#menu-principal ul li a:hover{
+    color:firebrick; }
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+/* Corpo */
+
+#corpo_index{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+    background-image: url(/imagens/back_index.jpg);    }
+
+#corpo_muscular{
+    display: block;    
+    align-items: flex-start;
+    justify-content: center;
+    height: 75vh;
+    background-image: url(/imagens/slide_3.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;   }
+
+#corpo_superiores{
+    display: flex; 
+    justify-content: center;   
+    align-items: center;
+    height: 75vh;
+    background-image: url(/imagens/slide_2.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;   }
+
+#corpo_cutaneos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75vh;
+    background-image: url(/imagens/slide_1.jpg); 
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed;  }
+
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+   }
+
+   .pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    height: 600px;
+    width: 1200px;
+    background:rgb(240,90,75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -7px 10px 10px rgb(4, 4, 4);
+    border-radius: 25px;
+    margin-top: 50px;    
+    
+}
+.cards img{
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    z-index: 100;
+    transition: 500ms;
+    border-radius: 25px;
+}
+.cards img:hover{
+    opacity: 0;
+}
+.cards h1{
+    font-size: 30px;
+    text-align: justify;
+}
+.cards h1 strong em{
+    color: rgb(239,219,194);
+}
+.cards p{
+    padding-top: 5px;
+    margin: 15px;
+    font-size: 20px;
+    text-align: justify;
+}
+.cards p em{
+    color: var(--cor-texto);
+}
+.card-body{
+    
+    background-color: RGB(240, 90, 75);  
+}
+
+.imagem_corpo img{
+    width: 800px;   }
+
+
+h1{
+    text-align: center; }
+
+
+h5, p{
+    color: black;   }
+
+#botao{
+    background-color:#fab991;
+    border: none ;
+    color: black;
+    align-items: flex-end;
+}
+
+div #botao{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+    /* --------------------------------------------------------------------------------- */
+
+    /* footer */
+
+footer{
+    height: 10vh;
+    display: flex;
+    justify-content: flex-start; /*Centralização horizontal*/
+    align-items: center; /*Centralização vertical*/  
+    background-color: var(--cor-fundo-clara);
+    min-height: 50px;  
+    background-color: dodgerblue;   
+    justify-content: space-around;
+    flex-shrink: 0;        
+    transition: 300ms;  }
+
+
+
+footer a{
+    color: black;
+    text-decoration: none;  }
+
+
+footer a:hover{
+    color: RGB(240, 90, 75);
+    text-decoration: underline;  }
+
+
+footer img {
+    display: flex;
+    width: 70px;
+    justify-content: flex-end;
+    padding: 10px;  }
+
+
+
+#logo-footer{
+    width: 100px; }
+
+#redes-social-footer{
+    display: flex;  }
+
+
+
+
+
+address{
+    font-size: 12px;
+    text-align: center;
+    color: black;  }

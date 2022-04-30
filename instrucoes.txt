@@ -1,0 +1,13 @@
+npm init
+
+npm install express --save
+
+npm install consign --save
+
+npm install --save-dev nodemon
+
+AXIOS
+
+npm install axios --save
+
+npm install cors --save
